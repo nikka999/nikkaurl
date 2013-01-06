@@ -1,4 +1,18 @@
 Nikkaurl::Application.routes.draw do
+  get "home/index"
+
+  get "home/create"
+
+  get "home/update"
+
+  get "home/destroy"
+
+  get "index/create"
+
+  get "index/update"
+
+  get "index/destroy"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
